@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+#home-text {
+	overflow: hidden;
+	margin: 0 0 50px 30px;
+	padding: 0 0 0 10px;
+	width: 900px;
+	}
+	#home-intro {
+		position: relative;
+		float: left;
+		width: 550px;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 29px;
+		line-height: 40px;
+		font-weight: normal;
+		}
+		#home-intro strong {
+			font-weight: normal;
+			color: #888f00
+			}
+	#home-news {
+		float: right;
+		padding-top: 8px;
+		width: 300px;
+		}
+		#home-news h3 .imgswap {
+			margin-bottom: 26px;
+			height: 20px;
+			background: url(/images/home-news-title.png) no-repeat 0 0;
+			}
+		#home-news h3 .imgswap:hover {
+			background-position: 0 -50px;
+			}
+		.news-item {
+			margin: 0 0 20px 0;
+			}
+			.news-item a {
+				display: block;
+				color: #555;
+				}
+			.news-item a:hover {
+				color: #888f00;
+				}
+				.news-item span {
+					display: block;
+					}
+					.news-item span b {
+						color: #000;
+						}
+				.news-item .date {
+					font-weight: bold;
+					color: #de740b;
+					}
+				.news-item a:hover .date {
+					color: #000;
+					}
+		
+#home-grid {
+	position: relative;
+	overflow: hidden;
+	margin:-45px auto 25px auto;
+	width: 900px;
+	height:200px;
+	/*width:900px;
+	height:450px;*/
+	background: #ddd;
+	}
+	.text-box {
+		display: none;
+		position: absolute;
+		overflow: hidden;
+		background: #6e9714;
+		}
+		.text-box div {
+			position: absolute;
+			overflow: hidden;
+			left: 24px;
+			top: 20px;
+			width: 402px;
+			height: 110px;
+			}
+			.text-box h4 {
+				font-size: 16px;
+				line-height:26px;
+				color: #fff;
+				text-transform:uppercase;
+				font-family: 'LANEUP';
+				}
+			.text-box p {
+				color: #ccc;
+				font-family: 'BitterRegular';
+				font-size:13px;
+				line-height:17px;
+				}
+	.grid-box {
+		position: absolute;
+		overflow: hidden;
+		z-index: 100;
+		background: #291670;
+		}
+		.grid-box img {
+			position: absolute;
+			}
+		.landscape img {
+			left: -150px;
+			top: -75px;
+			}
+		.portrait img {
+			left: -75px;
+			top: -150px;
+			}
+			
+	#grid-0  { top: 0;		right: 750px;	bottom: 300px;	left: 0; }
+	#grid-1	 { top: 0;		right: 600px;	bottom: 300px;	left: 150px; }
+	#grid-2  { top: 0;		right: 450px;	bottom: 300px;	left: 300px; }
+	#grid-3  { top: 0;		right: 300px;	bottom: 300px;	left: 450px; }
+	#grid-4  { top: 0;		right: 150px;	bottom: 300px;	left: 600px; }
+	#grid-5  { top: 0;		right: 0;		bottom: 300px;	left: 750px; }
+	
+	#grid-6  { top: 150px;	right: 750px;	bottom: 150px;	left: 0; }
+	#grid-7  { top: 150px;	right: 600px;	bottom: 150px;	left: 150px; }
+	#grid-8  { top: 150px;	right: 450px;	bottom: 150px;	left: 300px; }
+	#grid-9  { top: 150px;	right: 300px;	bottom: 150px;	left: 450px; }
+	#grid-10 { top: 150px;	right: 150px;	bottom: 150px;	left: 600px; }
+	#grid-11 { top: 150px;	right: 0;		bottom: 150px;	left: 750px; }
+	
+	#grid-12 { top: 300px;	right: 750px;	bottom: 0px;	left: 0; }
+	#grid-13 { top: 300px;	right: 600px;	bottom: 0px;	left: 150px; }
+	#grid-14 { top: 300px;	right: 450px;	bottom: 0px;	left: 300px; }
+	#grid-15 { top: 300px;	right: 300px;	bottom: 0px;	left: 450px; }
+	#grid-16 { top: 300px;	right: 150px;	bottom: 0px;	left: 600px; }
+	#grid-17 { top: 300px;	right: 0;		bottom: 0px;	left: 750px; }
+	
+	.grid-link {
+		position: absolute;
+		display: block;
+		width: 150px;
+		height: 150px;
+		z-index: 3000;
+		outline: none;
+		background: url(/images/empty.png) no-repeat 0 0;
+		}
+		
+	#link-0  { left: 0;		top: 0; }
+	#link-1  { left: 150px;	top: 0; }
+	#link-2  { left: 300px;	top: 0; }
+	#link-3  { left: 450px;	top: 0; }
+	#link-4  { left: 600px;	top: 0; }
+	#link-5  { left: 750px;	top: 0; }
+		
+	#link-6  { left: 0;		top: 150px; }
+	#link-7  { left: 150px;	top: 150px; }
+	#link-8  { left: 300px;	top: 150px; }
+	#link-9  { left: 450px;	top: 150px; }
+	#link-10 { left: 600px;	top: 150px; }
+	#link-11 { left: 750px;	top: 150px; }
+		
+	#link-12 { left: 0;		top: 300px; }
+	#link-13 { left: 150px;	top: 300px; }
+	#link-14 { left: 300px;	top: 300px; }
+	#link-15 { left: 450px;	top: 300px; }
+	#link-16 { left: 600px;	top: 300px; }
+	#link-17 { left: 750px;	top: 300px; }

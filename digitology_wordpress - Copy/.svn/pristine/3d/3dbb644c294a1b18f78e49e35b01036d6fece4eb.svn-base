@@ -1,0 +1,18 @@
+<?php
+$mysql_hostname = "localhost";
+$mysql_user = "root";
+$mysql_password = "";
+$mysql_database = "digitology_wordpress";
+$prefix = "";
+$bd = mysql_connect($mysql_hostname, $mysql_user, $mysql_password) or die("Opps some thing went wrong");
+mysql_select_db($mysql_database, $bd) or die("Opps some thing went wrong");
+
+	/*$rem_host="sir1332207493258.db.12072556.hostedresource.com";
+	$rem_uname="sir1332207493258";
+	$rem_pass="Bluesky11!";
+	$rem_db="sir1332207493258";
+	
+	$conn=mysql_connect($rem_host,$rem_uname,$rem_pass) or die("Opps some thing went wrong");
+	mysql_select_db($rem_db,$conn) or die("Opps some thing went wrong");*/
+	
+?>

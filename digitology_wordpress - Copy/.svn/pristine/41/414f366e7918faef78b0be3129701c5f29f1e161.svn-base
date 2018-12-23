@@ -1,0 +1,229 @@
+ <!--Menu-->
+		<script src="<?php echo get_template_directory_uri(); ?>/js/classie.js"></script>
+        
+		<script src="<?php echo get_template_directory_uri(); ?>/js/main4.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/main-green.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/main-pink.js"></script>
+        <!--Menu End-->
+        <!--- Expender --->
+   <!--      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+-->
+  <script src="<?php echo get_template_directory_uri(); ?>/js/readmore.js"></script>
+ <script type="text/javascript">
+            var includeDiv = $("#forkit-mousehover");
+			var requestQuoteDiv = $("#requestQuote");
+			var showHide_contactDiv = $("#showHide_contact");
+            $(window).on('hashchange', function() {
+                var href = location.hash.slice(1) +".html";
+                includeDiv.load('forkit-mousehover/' + href);
+				requestQuoteDiv.load('requestQuote/' + href);
+				showHide_contactDiv.load('requestQuote/' + href);
+            });
+        </script> 
+<script type="text/javascript">
+ 
+$(document).ready(function() {
+  $("#tabs_about .tab-links-about a").click(function () {
+    alert("Hello!");
+  
+  });
+}); // end ready
+</script>
+  <script>
+  jQuery(document).ready(function ($) {
+    $('#info').readmore({
+      moreLink: '<a href="#">Usage, examples, and options</a>',
+      collapsedHeight: 384,
+      afterToggle: function(trigger, element, expanded) {
+        if(! expanded) { // The "Close" link was clicked
+          $('html, body').animate({scrollTop: $(element).offset().top}, {duration: 100});
+        }
+      }
+    });
+  });
+   jQuery(document).ready(function ($) {
+    $('article').readmore({speed: 500});
+   });
+  </script>
+        <!--- Expender End -->
+        <!-- Hvr Effects -->
+        <script>
+			// For Demo purposes only (show hover effect on mobile devices)
+			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
+				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+			} );
+		</script>
+        <!-- Hvr Effects End -->
+        <!-- Testimonals -->
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery1.7.1/jquery.min.js">
+</script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.cslider.js">
+</script>
+		<script type="text/javascript">
+			$(function() {
+			
+				$('.da-slider').cslider({
+					autoplay	: false,
+					bgincrement	: 450
+				});
+			
+			});
+		</script>	
+        <!-- Testimonals End -->
+        <!--- Social Container -->
+        <script>
+             $('.holdingbox').hover(function(){
+        $('.rightbox').animate({width: '556px'}, 1000)
+    }, function(){
+        $('.rightbox').animate({width: '1'}, 1000)
+    });
+       </script>
+        <!--- Social Container End --->
+         <!-- Page Scroll -->
+<script src="<?php echo get_template_directory_uri(); ?>/js/main5.js"></script> <!-- Gem jQuery -->
+
+        <!-- Page Scroll End -->
+   <script  type="text/javascript">
+$(function() {
+	/*
+$(".searchbychar").click(function(event) {
+$('html,body').animate({ scrollTop: $(document).height()}, 'slow');
+}); */
+$(".searchbychar").click(function () {
+            $('html, body').animate({ scrollTop: 3100 }, 400);
+        });
+$(".searchbycharFooter").click(function () {
+            $('html, body').animate({ scrollTop: 3100 }, 400);
+        });
+$(".searchbycharGreen").click(function () {
+            $('html, body').animate({ scrollTop: 2700 }, 400);
+        });
+$(".searchbycharGreenFooter").click(function () {
+            $('html, body').animate({ scrollTop: 2700 }, 400);
+        });		
+});
+</script>     
+    <!-- Request query form-->            
+  <script>
+$(document).ready(function(e) {
+
+   $( "div[id=feed_win]" ).css({display:"none"});
+    $( "div[id=requestQuote]" ).click(function() {
+   $( "div[id=feed_win]" ).fadeToggle().css({width:"100%",zIndex:"1000",position:"absolute"});
+    });
+    
+   });
+
+</script>
+
+<!--end Request query form-->
+<script>
+    /*    function goToByScroll(id){
+          // Reove "link" from the ID
+        id = id.replace("link", "");
+          // Scroll
+        $('html,body').animate({
+            scrollTop: $("#"+'toppage_content').offset().top},
+            'slow');
+    }
+
+    $(".FtrColumnMenu > ul > li > a").click(function(e) { 
+          // Prevent a page reload when a link is pressed
+        e.preventDefault(); 
+          // Call the scroll function
+        goToByScroll($(this).attr("id"));           
+    });*/
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+       
+         function searchBlue(){
+             var title=$("#search_Blue").val();
+
+                      if(title!=""){
+                         
+                //   $("#contentBlueValue").html("<img alt="ajax search" src='<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif'/>");
+                    
+                  
+                         $.ajax({
+                            type:"POST",
+                            url:"<?php echo get_template_directory_uri(); ?>/searchResults_Blue.php",
+                            data:"title="+title,
+                            success:function(data){
+                                $("#contentBlueValue").html(data);
+                                $("#search_Blue").val("");
+                             }
+                          });
+                      }
+                       
+         }    
+          function searchGreen(){
+             var title=$("#search_Green").val();
+
+                      if(title!=""){
+                         
+                //   $("#contentBlueValue").html("<img alt="ajax search" src='<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif'/>");
+                    
+                  
+                         $.ajax({
+                            type:"POST",
+                            url:"<?php echo get_template_directory_uri(); ?>/searchResults_Green.php",
+                            data:"title="+title,
+                            success:function(data){
+                                $("#contentGreenValue").html(data);
+                                $("#search_Green").val("");
+                             }
+                          });
+                      }
+                       
+         }    
+          function searchPink(){
+             var title=$("#search_Pink").val();
+
+                      if(title!=""){
+                         
+                //   $("#contentBlueValue").html("<img alt="ajax search" src='<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif'/>");
+                    
+                  
+                         $.ajax({
+                            type:"POST",
+                            url:"<?php echo get_template_directory_uri(); ?>/searchResults_pink.php",
+                            data:"title="+title,
+                            success:function(data){
+                                $("#contentPinkValue").html(data);
+                                $("#search_Pink").val("");
+                             }
+                          });
+                      }
+                       
+         }
+         $('#search_Blue').keyup(function(e) {     
+          
+                  if(e.keyCode == 13) {
+                      $('html, body').animate({ scrollTop: 3000 }, 400);
+                        searchBlue();                    
+                      
+           
+    
+                      }
+    
+                  });
+          $('#search_Green').keyup(function(e) {     
+                  if(e.keyCode == 13) {
+                        $('html, body').animate({ scrollTop: 3000 }, 400);
+                        searchGreen();
+                        
+                      }
+                  });
+             $('#search_Pink').keyup(function(e) {     
+                  if(e.keyCode == 13) {
+                        $('html, body').animate({ scrollTop: 3500 }, 400);
+                        searchPink();
+                        
+                      }
+                  });       
+            });
+		</script>
+<?php wp_footer(); ?>
+</body>
+</html>

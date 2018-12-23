@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------
+
+Styles for SPD Austin website 
+spdaustin.com
+
+Author(s): David Guillory, Matt Wetzler
+
+Sibley/Peteet Design - Austin
+www.spdaustin.com
+
+Created: November 2008
+
+Colors:
+#969d00  SPD Green
+#888f00  SPD Green (Cheated dark for text)
+#E37F1C  SPD Orange
+#de740b  SPD Orange (Cheated dark for text)
+#00929F  SPD Blue
+#00838F  SPD Blue (Cheated dark for text)
+#808080  50% Gray Text
+#555     Dark Gray Text
+
+------------------------------------------------------------ */
+.imgswap {
+	display: block;
+	text-decoration: none;
+	text-indent: -29999px;
+	outline: none;
+	}
+	
+	
+/* BASIC STRUCTURE
+------------------------------------------------------------------------------------------ */
+
+#wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 980px;
+	}
+
+
+
+/* CORE TYPOGRAPHY
+------------------------------------------------------------------------------------------ */
+
+.arrow-up {
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	background: url(/images/arrow-up.png) no-repeat 0 0;
+	}
+.arrow-down {
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	background: url(/images/arrow-down.png) no-repeat 0 0;
+	}
+.arrow-up:hover,
+.arrow-up.hover,
+.arrow-down:hover,
+.arrow-down.hover {
+	background-position: -20px 0;
+	}
+.arrow-null,
+.arrow-null:hover,
+.arrow-null.hover {
+	background-position: -40px 0;
+	cursor: default;
+	}
+

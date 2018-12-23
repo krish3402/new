@@ -1,0 +1,49 @@
+<?php //include("db.php"); 
+include_once "../../../wp-load.php";
+?>
+
+<?php
+$server=$_SERVER['SERVER_NAME'];
+echo $title = $_GET['search'];
+$word='%'.$title.'%';
+/*$sql = "select post_title,post_content from wp_posts where post_title like '".$word."' and post_status ='publish'";
+//echo "select post_content from wp_posts where post_title like '$word' and post_status ='publish'";
+$res = mysql_query($sql);
+//echo mysql_num_rows($res);
+while($data=mysql_fetch_array($res))
+{
+// print_r($data);
+$string = $data[0];
+$string1 = $data[1];
+  ?>
+<a href="#" onclick="showBlueMenuContent(this.id)" id="<?php echo $string;?>"><?php echo $string; ?></a>
+<p><?php  echo $string1;?></p>
+<?php 
+}*/
+//echo wordlimit($string, 20);
+
+   
+//include "db.php";
+ 
+ $title=$_POST["title"];
+ 
+  
+ $result=mysql_query("SELECT * FROM wp_posts where post_title like '%$title%' and post_status='publish'");
+ $found=mysql_num_rows($result);
+ echo "<section id='demo'><div class='TitleHeading TitleColorP TitleMargin'>Search Results For :$title</div>";
+ 
+ if($found>0){
+    while($row=mysql_fetch_array($result)){
+             $parentparentdir='http://'.$_SERVER['SERVER_NAME'].'/'.basename(dirname(dirname(dirname(dirname(__FILE__))))).'/'.$row[post_title];
+       // $parentparentdir='http://'.$_SERVER['SERVER_NAME'].'/'.$row[post_title];
+    echo "<p class='NormalText NormalPcolor' id='search_content_ul'><span class='SocialSubTitle'>$row[post_title]</span></br>
+            <p class='NormalText NormalPcolor'><a href='#contentGreenValue' onclick='showGreenMenuContent(this.id)' id='$row[post_title]'>$parentparentdir</a></p></p>";
+       
+    }   
+ }else{
+  echo "<p class='NormalText NormalPcolor'>Search Result Not  Found</p>";
+ }
+ // ajax search
+echo '</section>';
+
+?>

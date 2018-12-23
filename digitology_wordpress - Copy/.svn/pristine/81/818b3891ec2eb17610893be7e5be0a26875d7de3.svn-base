@@ -1,0 +1,68 @@
+<div class="menu-wrap">
+	<nav class="menu">
+                  <ul class="icon-list">
+                     <li><a href="#"><i class="fa fa-fw fa-bell-o"></i><span>Company</span></a>
+                       <ul>    
+                                <li><a class="searchbychar"  href="#" onclick="showBlueMenuContent(this.id)" id="OverView">OverView</a></li>
+                                <li><a class="searchbychar"  href="#" onclick="showBlueMenuContent(this.id)" id="Facts_and_Figures">Facts and Figures</a></li>
+                                <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Why_Us">Why Us</a></li>
+                                <li><a class="searchbychar"href="#" onclick="showBlueMenuContent(this.id)" id="Business_Continuity">Business Continuity</a></li>
+                                <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Quality_Management">Quality Management</a></li>
+                                <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Methodology">Methodology</a></li>
+                                <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Testimonials">Testimonials</a></li>
+                                <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Security_and_IP_Protection">Security and IP Protection</a></li>
+                                <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Engagement_Models">Engagement Models</a></li>
+                       </ul>
+                     </li>
+                     <li><a href="#"><i class="fa fa-fw fa-envelope-o"></i><span>Solutions</span></a>
+                     <ul>  
+                            <li><a class="searchbychar"  href="#" onclick="showBlueMenuContent(this.id)" id="Web_and_Enterprise_Portals">Web and Enterprise Portals</a></li>
+                            <li><a class="searchbychar"  href="#" onclick="showBlueMenuContent(this.id)" id="Content_and_Document_Management">Content and Document Management</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Social_Networking_Software">Social Networking Software</a></li>
+                            <li><a class="searchbychar"href="#" onclick="showBlueMenuContent(this.id)" id="Ecommerce_and_Online_Payments">Ecommerce and Online Payments</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Business_Intelligence_and_Data_Mining">Business Intelligence and Data Mining</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Media_Content_Distribution">Media Content Distribution</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Business_Process_and_Automation">Business Process and Automation</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Elearning_and_Online_Training">Elearning and Online Training</a></li>
+
+                     </ul> 
+                     </li>
+                     <li><a href="#"><i class="fa fa-fw fa-comment-o"></i><span>Services</span></a>
+                         <ul>
+                            <li><a class="searchbychar"  href="#" onclick="showBlueMenuContent(this.id)" id="Web_Application_Development">Web Application Development</a></li>
+                            <li><a class="searchbychar"  href="#" onclick="showBlueMenuContent(this.id)" id="Application_Integration">Application Integration</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Mobile_Application_Development">Mobile Application Development</a></li>
+                            <li><a class="searchbychar"href="#" onclick="showBlueMenuContent(this.id)" id="Application_Security_Consulting">Application Security Consulting</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Website_Design_and_Development">Website Design and Development</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Usability_and_User_Interface_Design">Usability and User Interface Design</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Independent_QA_and_Testing">Independent QA and Testing</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Maintenance_and_Support">Maintenance and Support</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Dedicated_Development_Teams">Dedicated Development Teams</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="fa fa-fw fa-bar-chart-o"></i><span>Technology</span></a>
+                          <ul>
+                            <li><a class="searchbychar"  href="#" onclick="showBlueMenuContent(this.id)" id=".Net">.Net</a></li>
+                            <li><a class="searchbychar"  href="#" onclick="showBlueMenuContent(this.id)" id="PHP">PHP</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Database">Database</a></li>
+                            <li><a class="searchbychar"href="#" onclick="showBlueMenuContent(this.id)" id="RIAs">RIAs</a></li>
+                          </ul>                 
+                     </li>
+                     <li><a href="#"><i class="fa fa-fw fa-newspaper-o"></i><span>Contact</span></a>
+                          <ul>
+                            <li><a class="searchbychar"  href="#" onclick="showBlueMenuContent(this.id)" id="Contact_Form">Contact Form</a></li>
+                            <li><a class="searchbychar"  href="#" onclick="showBlueMenuContent(this.id)" id="Request_a_Free_Quote">Request a Free Quote</a></li>
+                            <li><a class="searchbychar" href="#" onclick="showBlueMenuContent(this.id)" id="Call_Me_Back">Call Me Back</a></li>
+                            <li><a class="searchbychar"href="#" onclick="showBlueMenuContent(this.id)" id="Contact_Info">Contact Info</a></li>
+                          </ul>
+                     </li>
+					</ul>
+				</nav>
+				<button class="close-button" id="close-button">Close Menu</button>
+				<div class="morph-shape" id="morph-shape" data-morph-open="M-7.312,0H15c0,0,66,113.339,66,399.5C81,664.006,15,800,15,800H-7.312V0z;M-7.312,0H100c0,0,0,113.839,0,400c0,264.506,0,400,0,400H-7.312V0z">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100vh" viewBox="0 0 100 800" preserveAspectRatio="none">
+						<path d="M-7.312,0H0c0,0,0,113.839,0,400c0,264.506,0,400,0,400h-7.312V0z" style="background:#FFFFFF;"/>
+					</svg>
+				</div>
+			</div>
+<button class="menu-button slide1Menu" id="open-button">Open Menu</button>            

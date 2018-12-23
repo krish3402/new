@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.icon-list li ul::-webkit-scrollbar{
+width:10px;
+background-color:transparent;
+} 
+.icon-list li ul {
+  
+   
+    width:100%;
+    max-height:0;
+    overflow:hidden;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.icon-list li:hover ul {
+    overflow:scroll;
+    max-height:150px;
+}
+ 
+/* menu */
+
+/*VERTICAL MENU*/
+nav.menu{
+  position:relative;
+ /* background:#667;*/
+}
+
+/* ALL UL */
+nav.menu ul{
+  list-style: none;
+}
+/* ALL LI */
+nav.menu li{
+  position:relative;
+}
+/* ALL A */
+nav.menu a{
+  display:block;
+  color:#eee;
+  text-decoration:none;
+  padding:10px 15px;
+  transition:0.2s;
+}
+/* ALL A HOVER */
+nav.menu li:hover > a{
+ /* background:#778;*/
+ overflow:scroll;
+}
+
+/* INNER UL HIDE */
+nav.menu ul ul{
+  background:rgba(0,0,0,0.1);
+  padding-left:20px;
+  transition: max-height 0.2s ease-out;
+  max-height:0;
+  overflow:hidden;
+}
+/* INNER UL SHOW */
+nav.menu li:hover > ul{
+/*  max-height:500px;*/
+  transition: max-height 0.25s ease-in;
+}
+
+/* end menu */
+

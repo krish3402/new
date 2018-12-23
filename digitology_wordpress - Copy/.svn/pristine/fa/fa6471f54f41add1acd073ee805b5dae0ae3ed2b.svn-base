@@ -1,0 +1,228 @@
+<?php get_header(); ?>
+<div id='container'>
+    <div id='div1' class='display' style="">
+       <div class="ImgSlide">
+            <div class="SlideOne">
+            <!-- Logo -->
+            <div class="logo pull-left wow fadeInDown animated animated" data-wow-delay=".2s Animationz"><a href="<?php echo home_url();?>"><img src="<?php echo get_template_directory_uri(); ?>/images/Logo.png"></a></div>
+            <!-- Logo End-->
+            <!--- Search Wraper -->
+            <div id="wrap">
+            <div class="TextS">
+             <?php get_search_form();?>
+  <!--<form action="" autocomplete="on">
+  <input id="search" name="search" type="text" placeholder="looking for ?"><input id="search_submit" value="Rechercher" type="submit">
+  </form>-->
+</div></div>
+
+        <!--- Slide Caption -->
+   <!--     <div class="CaptionContainer">
+        <div class="CaptionInnerContainer"><span class="SliderTitleText SliderTitleTextColor pull-center wow fadeInDown animated animated" style="visibility: visible;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s; text-align:center;">we’re driven to build <br>your digital experience.<a href="#" class="dottedReadMore hvr-sweep-to-top">...</a></span>
+        <div class="BtnContainer">-->
+  <!--<div class="BtnWraper BtnResponse BtnMargin">
+        <a href="#" class="btn left lg wow fadeInRight animated animated" >
+        <span class="left icon icon-gear " id="themeBlueContainer"></span>
+        <span class="right title"><span class="arrow-right"></span>Change Settings</span>
+      </a>
+      </div>-->
+ <!--<div class="BtnWraper BtnMargin" id="requestQuote">
+        <a href="#" class="btn left lg wow fadeInRight animated animated">
+        <span class="left icon icon-gear iconz"></span>
+        <span class="right title"><span class="arrow-right"></span>request a quote</span>
+      </a>
+      </div>
+          
+</div>
+</div>
+           
+            <script type="text/javascript">
+			function submitRequestQuote(){
+				var fullNameVal = document.getElementById("fullName").value;
+				alert(fullNameVal);
+				}
+			</script>
+          <div id="feed_win" class="feed_win">
+              <div class="ContactFormWraper" id="RequestForm">
+                  <table>
+                      <tr>
+                          <td> <div class="FormInputWraper"><input type="text" class="FormInputWraperz" placeholder="Your Name"></div></td>
+                          <td>  <div class="FormInputWraper"><input type="text" class="FormInputWraperz" placeholder="Your Phone Number"></div></td>
+                          <td class="contactType"><div class="FormInputWraper FormInputWraperz col3 "><span class=""> Please contact me by:</span></div></td>
+                          <td rowspan="4"><div class="SubmitWraper"><input type="submit" class="SubmitBtn" style=""></div></td>
+                      </tr>
+                       <tr>
+                          <td><div class="FormInputWraper"><input type="text" class="FormInputWraperz" placeholder="Your eMailAddress"></div></td>
+                          <td> <div class="FormInputWraper"><input type="text" class="FormInputWraperz" placeholder="Choose Your Industry"></div></td>
+                          <td class="contactType"><div class="FormInputWraper FormInputWraperz col3"><span class="">email<input type="radio" class="" placeholder="Choose Your Industry" name="contact">Phone<input type="radio" class="" placeholder="Choose Your Industry" name="contact"></span></div></td>
+                        </tr>
+                       <tr>
+                           <td colspan="3"><div class="FormInputWraper"><textarea class="error" style="width:100%" rows="1" placeholder="comments"></textarea></div></td>
+                         
+                        </tr>
+                  </table>
+       
+    </div>     
+         </div>
+        
+        </div>-->
+                <!--- Slide Caption End -->
+            </div></div>
+           <div class="AboutContainer P-about">
+<p>
+<?php while ( have_posts() ) : the_post(); ?>
+<?php the_content(); ?>
+<?php endwhile; // end of the loop. ?>
+</p>
+           </div>
+ <?php include("ThemeBlue/footer.php"); ?>
+    </div>
+      <div id='div2' class='display' style="">
+       <div class="ImgSlide">
+            <div class="SlideOne">
+            <!-- Logo -->
+            <div class="logo pull-left wow fadeInDown animated animated" data-wow-delay=".2s Animationz"><a href="<?php echo home_url();?>"><img src="<?php echo get_template_directory_uri(); ?>/images/Logo.png"></a></div>
+            <!-- Logo End-->
+            <!--- Search Wraper -->
+            <div id="wrap">
+            <div class="TextS">
+             <?php get_search_form();?>
+  <!--<form action="" autocomplete="on">
+  <input id="search" name="search" type="text" placeholder="looking for ?"><input id="search_submit" value="Rechercher" type="submit">
+  </form>-->
+</div></div>
+
+        <!--- Slide Caption -->
+   <!--     <div class="CaptionContainer">
+        <div class="CaptionInnerContainer"><span class="SliderTitleText SliderTitleTextColor pull-center wow fadeInDown animated animated" style="visibility: visible;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s; text-align:center;">we’re driven to build <br>your digital experience.<a href="#" class="dottedReadMore hvr-sweep-to-top">...</a></span>
+        <div class="BtnContainer">-->
+  <!--<div class="BtnWraper BtnResponse BtnMargin">
+        <a href="#" class="btn left lg wow fadeInRight animated animated" >
+        <span class="left icon icon-gear " id="themeBlueContainer"></span>
+        <span class="right title"><span class="arrow-right"></span>Change Settings</span>
+      </a>
+      </div>-->
+ <!--<div class="BtnWraper BtnMargin" id="requestQuote">
+        <a href="#" class="btn left lg wow fadeInRight animated animated">
+        <span class="left icon icon-gear iconz"></span>
+        <span class="right title"><span class="arrow-right"></span>request a quote</span>
+      </a>
+      </div>
+          
+</div>
+</div>
+           
+            <script type="text/javascript">
+			function submitRequestQuote(){
+				var fullNameVal = document.getElementById("fullName").value;
+				alert(fullNameVal);
+				}
+			</script>
+          <div id="feed_win" class="feed_win">
+              <div class="ContactFormWraper" id="RequestForm">
+                  <table>
+                      <tr>
+                          <td> <div class="FormInputWraper"><input type="text" class="FormInputWraperz" placeholder="Your Name"></div></td>
+                          <td>  <div class="FormInputWraper"><input type="text" class="FormInputWraperz" placeholder="Your Phone Number"></div></td>
+                          <td class="contactType"><div class="FormInputWraper FormInputWraperz col3 "><span class=""> Please contact me by:</span></div></td>
+                          <td rowspan="4"><div class="SubmitWraper"><input type="submit" class="SubmitBtn" style=""></div></td>
+                      </tr>
+                       <tr>
+                          <td><div class="FormInputWraper"><input type="text" class="FormInputWraperz" placeholder="Your eMailAddress"></div></td>
+                          <td> <div class="FormInputWraper"><input type="text" class="FormInputWraperz" placeholder="Choose Your Industry"></div></td>
+                          <td class="contactType"><div class="FormInputWraper FormInputWraperz col3"><span class="">email<input type="radio" class="" placeholder="Choose Your Industry" name="contact">Phone<input type="radio" class="" placeholder="Choose Your Industry" name="contact"></span></div></td>
+                        </tr>
+                       <tr>
+                           <td colspan="3"><div class="FormInputWraper"><textarea class="error" style="width:100%" rows="1" placeholder="comments"></textarea></div></td>
+                         
+                        </tr>
+                  </table>
+       
+    </div>     
+         </div>
+        
+        </div>-->
+                <!--- Slide Caption End -->
+            </div></div>
+<p>
+<?php while ( have_posts() ) : the_post(); ?>
+<?php the_content(); ?>
+<?php endwhile; // end of the loop. ?>
+</p>
+ <?php include("ThemeGreen/footer.php"); ?>
+    </div>
+      <div id='div3' class='display' style="">
+       <div class="ImgSlide">
+            <div class="SlideOne">
+            <!-- Logo -->
+            <div class="logo pull-left wow fadeInDown animated animated" data-wow-delay=".2s Animationz"><a href="<?php echo home_url();?>"><img src="<?php echo get_template_directory_uri(); ?>/images/Logo.png"></a></div>
+            <!-- Logo End-->
+            <!--- Search Wraper -->
+            <div id="wrap">
+            <div class="TextS">
+             <?php get_search_form();?>
+  <!--<form action="" autocomplete="on">
+  <input id="search" name="search" type="text" placeholder="looking for ?"><input id="search_submit" value="Rechercher" type="submit">
+  </form>-->
+</div></div>
+
+        <!--- Slide Caption -->
+   <!--     <div class="CaptionContainer">
+        <div class="CaptionInnerContainer"><span class="SliderTitleText SliderTitleTextColor pull-center wow fadeInDown animated animated" style="visibility: visible;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s; text-align:center;">we’re driven to build <br>your digital experience.<a href="#" class="dottedReadMore hvr-sweep-to-top">...</a></span>
+        <div class="BtnContainer">-->
+  <!--<div class="BtnWraper BtnResponse BtnMargin">
+        <a href="#" class="btn left lg wow fadeInRight animated animated" >
+        <span class="left icon icon-gear " id="themeBlueContainer"></span>
+        <span class="right title"><span class="arrow-right"></span>Change Settings</span>
+      </a>
+      </div>-->
+ <!--<div class="BtnWraper BtnMargin" id="requestQuote">
+        <a href="#" class="btn left lg wow fadeInRight animated animated">
+        <span class="left icon icon-gear iconz"></span>
+        <span class="right title"><span class="arrow-right"></span>request a quote</span>
+      </a>
+      </div>
+          
+</div>
+</div>
+           
+            <script type="text/javascript">
+			function submitRequestQuote(){
+				var fullNameVal = document.getElementById("fullName").value;
+				alert(fullNameVal);
+				}
+			</script>
+          <div id="feed_win" class="feed_win">
+              <div class="ContactFormWraper" id="RequestForm">
+                  <table>
+                      <tr>
+                          <td> <div class="FormInputWraper"><input type="text" class="FormInputWraperz" placeholder="Your Name"></div></td>
+                          <td>  <div class="FormInputWraper"><input type="text" class="FormInputWraperz" placeholder="Your Phone Number"></div></td>
+                          <td class="contactType"><div class="FormInputWraper FormInputWraperz col3 "><span class=""> Please contact me by:</span></div></td>
+                          <td rowspan="4"><div class="SubmitWraper"><input type="submit" class="SubmitBtn" style=""></div></td>
+                      </tr>
+                       <tr>
+                          <td><div class="FormInputWraper"><input type="text" class="FormInputWraperz" placeholder="Your eMailAddress"></div></td>
+                          <td> <div class="FormInputWraper"><input type="text" class="FormInputWraperz" placeholder="Choose Your Industry"></div></td>
+                          <td class="contactType"><div class="FormInputWraper FormInputWraperz col3"><span class="">email<input type="radio" class="" placeholder="Choose Your Industry" name="contact">Phone<input type="radio" class="" placeholder="Choose Your Industry" name="contact"></span></div></td>
+                        </tr>
+                       <tr>
+                           <td colspan="3"><div class="FormInputWraper"><textarea class="error" style="width:100%" rows="1" placeholder="comments"></textarea></div></td>
+                         
+                        </tr>
+                  </table>
+       
+    </div>     
+         </div>
+        
+        </div>-->
+                <!--- Slide Caption End -->
+            </div></div>
+<p>
+<?php while ( have_posts() ) : the_post(); ?>
+<?php the_content(); ?>
+<?php endwhile; // end of the loop. ?>
+</p>
+  <?php include("ThemePink/footer.php"); ?>
+    </div>
+</div>
+<?php get_footer(); ?>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Digitology</title>
+<!-- Template -->
+<link rel="stylesheet" type="text/css" href="css/Template.css"/>
+<!--Template End -->
+<!-- Search -->
+<link rel="stylesheet" type="text/css" href="css/Search.css" />
+<!-- Search End -->
+<!--Menu-->
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/menu_bubble.css" />
+<script src="js/snap.svg-min.js"></script>
+<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+<!--- Menu End -->
+        <!---Animate --->
+        <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+        <!---Animate End -->
+        <!-- FallDown -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/forkit.css">
+        <!-- FallDown End -->
+        <!-- Btn Animation -->
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <!--- Btn Animation -->
+        <!--- Hvr Effects -->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/set1.css" />
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+        <!--- Hvr Effects End -->
+        <!-- TestMonials -->
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+		<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/nojs.css" />
+		</noscript>
+        <!-- TestMonials -->
+        <!-- Social Container -->
+     
+        <!-- Social Container --->
+	</head>
+	<body>
+		<div class="container">
+        <!-- Menu -->
+			<div class="menu-wrap">
+				<nav class="menu">
+					<div class="icon-list">
+						<a href="#"><i class="fa fa-fw fa-star-o"></i><span>Favorites</span></a>
+						<a href="#"><i class="fa fa-fw fa-bell-o"></i><span>Alerts</span></a>
+						<a href="#"><i class="fa fa-fw fa-envelope-o"></i><span>Messages</span></a>
+						<a href="#"><i class="fa fa-fw fa-comment-o"></i><span>Comments</span></a>
+						<a href="#"><i class="fa fa-fw fa-bar-chart-o"></i><span>Analytics</span></a>
+						<a href="#"><i class="fa fa-fw fa-newspaper-o"></i><span>Reading List</span></a>
+					</div>
+				</nav>
+				<button class="close-button" id="close-button">Close Menu</button>
+				<div class="morph-shape" id="morph-shape" data-morph-open="M-7.312,0H15c0,0,66,113.339,66,399.5C81,664.006,15,800,15,800H-7.312V0z;M-7.312,0H100c0,0,0,113.839,0,400c0,264.506,0,400,0,400H-7.312V0z">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+						<path d="M-7.312,0H0c0,0,0,113.839,0,400c0,264.506,0,400,0,400h-7.312V0z" style="background:#FFFFFF;"/>
+					</svg>
+				</div>
+			</div>
+			<button class="menu-button slide1Menu" id="open-button">Open Menu</button>
+            <!-- Menu End -->
+            <!-- Image Slide -->
+            <div class="ImgSlide">
+            <div class="SlideTwo">
+            <!-- Logo -->
+            <div class="logo pull-left wow fadeInDown animated animated" data-wow-delay=".2s Animationz"><img src="images/Logo.png"></div>
+            <!-- Logo End-->
+            <!--- Search Wraper -->
+            <div id="wrap">
+  <form action="" autocomplete="on">
+  <input id="search" name="search" type="text" placeholder="looking for ?"><input id="search_submit" value="Rechercher" type="submit">
+  </form>
+</div>
+            <!--- Search Wraper End -->
+            <!-- FallDown Div -->
+       	<!-- The contents (if there's no contents the ribbon acts as a link) -->
+		<div class="forkit-curtain">
+			<div class="close-button"></div>
+			Content Place Holder	</div>
+
+		<!-- The ribbon -->
+		<a class="forkit" data-text="" data-text-detached="" href="#"><img style="position: absolute; top: 0; right: 0; border: 0;" src="" alt=""></a>
+        <!--- FallDown Div end --->
+        <!--- Slide Caption -->
+        <div class="CaptionContainer"><span class="SliderTitleText SliderTitleTextColor pull-center wow fadeInDown animated animated" style="visibility: visible;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s; text-align:center;">we’re driven to build <br>your digital experience.<a href="#" class="dottedReadMore hvr-sweep-to-top">...</a></span>
+  <div class="BtnWraper BtnResponse BtnMargin">
+        <a href="#" class="btn left lg wow fadeInRight animated animated">
+        <span class="left icon icon-gear "></span>
+        <span class="right title"><span class="arrow-right"></span>Change Settings</span>
+      </a>
+      </div>
+ <div class="BtnWraper BtnMargin">
+        <a href="#" class="btn left lg wow fadeInRight animated animated">
+        <span class="left icon icon-gear iconz"></span>
+        <span class="right title"><span class="arrow-right"></span>request a quote</span>
+      </a>
+      </div>
+</div>
+                <!--- Slide Caption End -->
+            </div></div>
+            <!-- Image Slide End -->
+            <!--- Aboutus -->
+            <div class="AboutContainer P-about">
+            <div class="AboutLeftContainer AboutLeftContainerBg AboutLeftMinSize col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s"></div>
+            <div class="AboutRightContainer">
+             <section id="demo">
+
+      <article>
+      <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
+              <div class="TitleHeading TitleColorP TitleMargin">Trusted IT Vendor since 2008</div>
+
+       
+        <p class="NormalText NormalPcolor">Digitology is a global IT solutions company with over 6 year's experience. We provide full-cycle services in the areas of software development, Web-based enterprise solutions, Web application and portal development. We combine our solid business domain experience, technical expertise, profound knowledge of latest industry trends and quality-driven delivery model to offer progressive, end-to-end Web solutions.</p></div>
+ </article>
+ </section>
+            </div></div>
+            <!--- Aboutus End -->
+            <!--- Our Process --->
+            <div class="OurProcessWraper">
+            <div class="OP-TitleWraper"><span class="TitleHeading TitleColorP col-md-5 grid-right wow fadeInRight animated">our process</span></div>
+            <div class="OurProcessBodyContainer">
+            <!---Pannel -->
+            <div class="OurProcessPannel">
+            <div class="OurProcessInnerPannel">
+            <div class="OurProcessIconWraper">
+            <div class="hexagon">
+            <div class="HexagonInnerWraper">
+            <div class="HexagonIcon"><img src="images/Discover.png"></div>
+            <div class="HexagonTitle">Discover</div></div><span></span></div>
+            <div class="ProcessTextWraper">Lorem Ipsum is simply dummy text of the printing and typesetting industry imply dummy.</div></div></div></div>
+            <!--- Pannel End --->
+            <!---Pannel -->
+            <div class="OurProcessPannel">
+            <div class="OurProcessInnerPannel">
+            <div class="OurProcessIconWraper">
+            <div class="hexagon">
+            <div class="HexagonInnerWraper">
+            <div class="HexagonIcon"><img src="images/Design.png"></div>
+            <div class="HexagonTitle">Design</div></div><span></span></div>
+            <div class="ProcessTextWraper">Lorem Ipsum is simply dummy text of the printing and typesetting industry imply dummy.</div></div></div></div>
+            <!--- Pannel End --->
+            <!---Pannel -->
+            <div class="OurProcessPannel">
+            <div class="OurProcessInnerPannel">
+            <div class="OurProcessIconWraper">
+            <div class="hexagon">
+            <div class="HexagonInnerWraper">
+            <div class="HexagonIcon"><img src="images/develop.png"></div>
+            <div class="HexagonTitle">Develop</div></div><span></span></div>
+            <div class="ProcessTextWraper">Lorem Ipsum is simply dummy text of the printing and typesetting industry imply dummy.</div></div></div></div>
+            <!--- Pannel End --->
+            <!---Pannel -->
+            <div class="OurProcessPannel">
+            <div class="OurProcessInnerPannel">
+            <div class="OurProcessIconWraper">
+            <div class="hexagon">
+            <div class="HexagonInnerWraper">
+            <div class="HexagonIcon"><img src="images/deploy.png"></div>
+            <div class="HexagonTitle">Deploy</div></div><span></span></div>
+            <div class="ProcessTextWraper">Lorem Ipsum is simply dummy text of the printing and typesetting industry imply dummy.</div></div></div></div>
+            <!--- Pannel End --->
+            <!-- ReadMore --->
+            <div class="ProcessReadMoreWrap">
+            <div class="RedmoreTg"></div></div>
+            <!-- ReadMore --->
+            </div></div>
+            <!--- Our Process End -->
+            <!--- Services --->
+           <div class="ServicesWraper">
+           <div class="grid">
+					<figure class="effect-sadie">
+						<img src="images/DesignServices.jpg" alt="img02"/>
+						<figcaption>
+							<h2><span class="UnderLineHvr">De</span>sign<br>
+							<span class="ServicesRegTxt">Losum Dummy, Losum Dummy
+</span></h2><p>Custom Graphic Design  - Responsive	PSD to anything - Logos Marketing Materials</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-sadie">
+						<img src="images/Develop.jpg" alt="img14"/>
+						<figcaption>
+							<h2><span class="UnderLineHvr">De</span>v<br><span class="ServicesRegTxt">Losum Dummy, Losum Dummy
+</span></h2><p>Custom Graphic Design  - Responsive	PSD to anything - Logos Marketing Materials</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+                    	<figure class="effect-sadie">
+						<img src="images/DevelopServices.png" alt="img14"/>
+						<figcaption>
+							<h2>Web Application <span class="UnderLineHvr">De</span>v<br>
+<span class="ServicesRegTxt">Losum Dummy, Losum Dummy
+</span></h2><p>Custom Graphic Design  - Responsive	PSD to anything - Logos Marketing Materials</p>							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+                    	<figure class="effect-sadie">
+						<img src="images/Dashboard.jpg" alt="img14"/>
+						<figcaption>
+							<h2>Dashboard <span class="UnderLineHvr">De</span>v <br><span class="ServicesRegTxt">Losum Dummy, Losum Dummy
+</span></h2><p>Custom Graphic Design  - Responsive	PSD to anything - Logos Marketing Materials</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div></div>
+            <!--- Services End --->
+            <!--- TestimonialsWraper  --->
+            <div class="TestimonialsWraper">
+            <div class="TestiMonialLeftWraper">
+            <div class="TestiMonialLeftInnerWraper">
+             <div id="da-slider" class="da-slider">
+				<div class="da-slide">
+				<p class="TestMonNrmalTxtColor">“Digitology has been the best Web development company I have worked with. They have met or exceeded my expectations on every project… They have allowed me to bring all of my projects together under one roof and begin to develop an integrated product and code base that can be leveraged across all of my existing and forthcoming services.”<p class="SignatureTxt TestMonSigColor">Dr. Richard M. Smith<br>President, StrataDat</p></p>
+				</div>
+				<div class="da-slide">
+					<p class="TestMonNrmalTxtColor">“Digitology has been the best Web development company I have worked with. They have met or exceeded my expectations on every project… They have allowed me to bring all of my projects together under one roof and begin to develop an integrated product and code base that can be leveraged across all of my existing and forthcoming services.”<p class="SignatureTxt TestMonSigColor">Dr. Richard M. Smith<br>President, StrataDat</p></p>
+				</div>
+				<div class="da-slide">
+					<p class="TestMonNrmalTxtColor">“Digitology has been the best Web development company I have worked with. They have met or exceeded my expectations on every project… They have allowed me to bring all of my projects together under one roof and begin to develop an integrated product and code base that can be leveraged across all of my existing and forthcoming services.”<p class="SignatureTxt TestMonSigColor">Dr. Richard M. Smith<br>President, StrataDat</p></p>
+				</div>
+				<div class="da-slide">
+					<p class="TestMonNrmalTxtColor">“Digitology has been the best Web development company I have worked with. They have met or exceeded my expectations on every project… They have allowed me to bring all of my projects together under one roof and begin to develop an integrated product and code base that can be leveraged across all of my existing and forthcoming services.”<p class="SignatureTxt TestMonSigColor">Dr. Richard M. Smith<br>President, StrataDat</p></p>
+				</div>
+				
+			</div>
+            
+            <div class="TestimonalTitleWrap"><span class="TestimonalsTitleWht">LOTS</span><span class="TestimonalsTitlePink"> of </span><br>
+
+<span class="TestimonalsTitleBlack">HIGH FIVES</span></div>
+            </div></div></div>
+            <!--- TestimonialsWraper End --->
+            <!--- Social Contianer -->
+            <div class="SocialContainer">
+            <div class="SocialoverlyWraper">
+            <div class="SocialLefrContentWraper"><span class="SocialTitle">I'M INTERESTED!</span><br><span class="SocialSubTitle">Questions, comments, or ready to start working with us?</span>
+</div>
+<div class="holdingbox">
+ <span class="leftbox"></span>
+ <span class="rightbox">
+     <div class="contentx SocialLeftMargin">
+     <nav class="social">
+          <ul>
+              <li><a href="#"><i class="fa fa-twitter"></i>&nbsp;@Losum Dammy</a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i>&nbsp;@Losum Dammy</a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i>&nbsp;@Losum Dammy</a></li>
+              <li><a href="#"><i class="fa fa-skype"></i>&nbsp;@Losum Dammy</a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i>&nbsp;@Losum Dammy</a></li>
+              <li><a href="#"><i class="fa fa-google"></i>&nbsp;@Losum Dammy</a></li>
+           </ul>
+      </nav></div>
+ </div>
+</div></div>
+            <!-- Social Container End --->
+            <!--- Footer Container -->
+            <div class="FtrContainer">
+            <div class="FtrLinkCloumn">
+            <div class="FtrColumnMenu">
+            <div class="ftrMenu FtrTxtColor">
+            <ul>
+            <li><a href="#">Home</a></li>
+<li><a href="#">Work</a></li>
+<li><a href="#">Company</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Careers</a></li></ul></div>
+<div class="ftrMenu FtrTxtColor">
+            <ul>
+            <li><a href="#"><span class="ServicesTxt">Services</span></a></li>
+<li><a href="#">Strategy</a></li>
+<li><a href="#">Design</a></li>
+<li><a href="#">Development</a></li>
+<li><a href="#">Search & Social</a></li>
+<li><a href="#">Content</a></li>
+<li><a href="#">Website Maintenance</a></li></ul></div></div></div>
+<div class="FtraddressCloumn">
+<div class="FtrColumnMenu">
+  <div class="ftrMenu FtrTxtColor">
+            <ul>
+            <li><a href="#"><span class="ServicesTxt">GET IN TOUCH</span></a></li>
+<li><a href="#"><span class="FtrWhiteTxt">Digitology</span><br>1234 Losum dammy <br>Losum dammy, HYD 500036</a></li></ul></div>
+<div class="ftrMenu FtrTxtColor">
+            <ul>
+            <li><a href="#">P: 123.456.7890</a></li>
+<li><a href="#">F: 123.456.7890</a></li>
+<li><a href="#">info@digitology.co.uk</a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li></ul></div></div></div>
+<div class="FtraboutCloumn">
+<div class="FtrColumnMenuOutBorder"><span class="FtrAboutTxt">
+Digitology is an established Web development company 
+delivering Web development services of any complexity to clients worldwide</span></div>		</div>
+<div class="Childtr"><span class="ChildtrTxt">Hyderabad India, OR · England, UK · Losumdammy, UK · Losumdammy,  Losum dammy, UK | ©2015 Digitology.co.uk &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Privacy Policy</a></span></div>            
+<!-- Footer Contianer End -->
+</div>
+        <!-- container -->
+        <!--Menu-->
+		<script src="js/classie.js"></script>
+		<script src="js/main4.js"></script>
+        <!--Menu End-->
+        <!--- FallDown Div --->
+        <script src="js/forkit.js"></script>
+        <!--- FallDown Div End --->
+        <!--- Expender --->
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <script src="js/readmore.js"></script>
+
+  <script>
+    $('#info').readmore({
+      moreLink: '<a href="#">Usage, examples, and options</a>',
+      collapsedHeight: 384,
+      afterToggle: function(trigger, element, expanded) {
+        if(! expanded) { // The "Close" link was clicked
+          $('html, body').animate({scrollTop: $(element).offset().top}, {duration: 100});
+        }
+      }
+    });
+
+    $('article').readmore({speed: 500});
+  </script>
+        <!--- Expender End -->
+        <!-- Hvr Effects -->
+        <script>
+			// For Demo purposes only (show hover effect on mobile devices)
+			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
+				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+			} );
+		</script>
+        <!-- Hvr Effects End -->
+        <!-- Testimonals -->
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cslider.js"></script>
+		<script type="text/javascript">
+			$(function() {
+			
+				$('#da-slider').cslider({
+					autoplay	: false,
+					bgincrement	: 450
+				});
+			
+			});
+		</script>	
+        <!-- Testimonals End -->
+        <!--- Social Container -->
+        <script>
+             $('.holdingbox').hover(function(){
+        $('.rightbox').animate({width: '556px'}, 1000)
+    }, function(){
+        $('.rightbox').animate({width: '1'}, 1000)
+    });
+
+
+            
+        </script>
+        <!--- Social Container End --->
+	</body>
+</html>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

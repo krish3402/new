@@ -1,0 +1,258 @@
+@charset "utf-8";
+h5,h6{font-weight:700;float:left}
+.gray_table_text,.gray_table_text td{border:1px solid #d9e5ee}
+.left_grid,.left_grid_img,.right_grid,h5,h6{float:left}
+h6{font-size:17px;line-height:150%}
+h5{font-size:21px;padding:10px 0 0}
+.gray_table_text thead{font-size:16px;font-weight:bolder}
+.gray_table_text{outline:#d9e5ee solid 1px}
+.gray_table_text p{padding-left:5px}
+.orange_table{border-color:#fff;border-style:solid;border-width:1px;outline:#d9e5ee solid 1px;table-layout:fixed;width:100%}
+.orange_table td{border:1px solid #d9e5ee;word-wrap:break-word}
+.left_grid{width:45%;margin-right:15px}
+.right_grid{width:45%;margin-left:15px}
+.technology_overview_table{border:1px solid #f0f0f0;border-collapse:inherit;margin:20px 0}
+.technology_overview_table tbody{border-top:1px solid #ccc}
+.technology_overview_table td{border:1px solid #f0f0f0;display:table-cell;padding:5px;vertical-align:middle}
+.business_1,.business_2,.business_3{float:left;width:30%}
+.Procurement_table{border:1px solid #D9E5EE;margin-left:5%;width:90%;table-layout:fixed}
+.Procurement_table td{border:1px solid #D9E5EE;display:table-cell;padding:5px;vertical-align:top;word-wrap:break-word}
+.helios_bold18 cite_author{font-family:HeliosCond,Arial,fantasy;font-size:18px;font-weight:700}
+.helios16 cite_author{font-family:HeliosCond,Arial,fantasy;font-size:16px;font-weight:400}
+.cite{background:url(../Images/cite.png) left top no-repeat rgba(0,0,0,0);display:block;font-family:Cambria,Calibri,Arial;/*padding:15px 0 0 77px*/}
+.cite_author,p.cite_author{/*padding:0 0 0 77px*/}
+article .big_mark li{background:url(../Images/big_mark.png) 5px 5px no-repeat;list-style:none;padding:0 0 15px 55px}
+.padding_text{padding-top:10px;padding-bottom:1px}
+.orange_mark li{background:url(../Images/orange_mark.png) left 7px no-repeat;list-style:none;padding:2px 0 1px 18px}
+.left_grid_img{width:47%}
+.right_grid_img{width:45%;float:right;margin-right:50px}
+article .Procurement_table_list li{background:url(../Images/white_mark.png) left 10px no-repeat;list-style:none;margin:0;padding:5px 0 5px 20px}
+.services_text{margin-bottom:50px;background:url(../images/cir1.png) left no-repeat;min-height:760px;margin-top:40px}
+.online_services{display:block;float:left;width:45%;padding-right:15px}
+.scheme_img{/*width:640px;float:left;margin:20px auto*/}
+p.summary{font-family:Cabin;font-size:16px;font-weight:700;line-height:21px;padding:10px 0}
+.Models_grid{width:40%;float:left}
+.image_grid{background:url(../Images/1CIRCLES.png) center 270px no-repeat;min-height:1500px;margin-top:25px;width:980px}
+.digitology_expertise{background:url(../images/digitology_expertise.png) no-repeat;width:696px;height:691px;display:block;margin-left:auto;margin-right:auto}
+.SolutionModel,.all-round-solutions{width:633px;display:block;margin-left:auto;margin-right:auto}
+.SolutionModel{background:url(../Images/SolutionModel.png) no-repeat;height:312px}
+.all-round-solutions{background:url(../Images/all-round-solutions.png) no-repeat;height:353px}
+.Ecommerce_03{background:url(../Images/Ecommerce_03.png) no-repeat;width:713px;height:743px;display:block;margin-left:auto;margin-right:auto}
+.Business_Intelligence_and_Data_Mining{background:url(../Images/Business_Intelligence_and_Data_Mining.png) no-repeat;width:680px;height:110px;display:block;margin-left:auto;margin-right:auto}
+.Digitology_Media_Content_Distribution{background:url(../Images/Digitology_Media_Content_Distribution.png) no-repeat;width:930px;height:260px;display:block;margin-left:auto;margin-right:auto}
+.solution{background:url(../Images/solution.png) no-repeat;height:386px;width:257px;display:block;margin-left:auto;margin-right:auto}
+.Competencies_solution{float:right;width:65%}
+.Digitology_Media_Content_Distribution_p{text-align:center;margin:40px}
+.Project_Vision{width:290px}
+.Business_Analysis{margin-top:50px;width:370px}
+.Quality_Assurance{width:290px;margin-top:24px}
+.Deployment{margin-top:24px;width:380px}
+.Maintenance_Support{margin-top:35px;width:290px}
+.Technology_consulting{width:410px;margin-left:60px}
+.User_Experience{margin:55px 0 0 170px;width:320px}
+.Development{width:410px;margin-left:80px;margin-top:95px}
+.Integration{width:320px;margin-left:170px;margin-top:38px}
+.Continuous_Improvement{width:410px;margin-left:70px;margin-top:53px}
+.web_app_colors{background:url(../Images/colors.png) no-repeat;height:54px;width:53px}
+.web_app_colors_div{float:left;margin:15px 15px 10px 0}
+.Iflexion_mobile1,.Mapping-Domain-Knowledge,.Requirements_and_Conceptual_Design,.UI{margin-left:auto;margin-right:auto;display:block}
+.web_app_colors_content{margin-top:10px;float:left}
+.Mapping-Domain-Knowledge{background:url(../Images/Mapping-Domain-Knowledge.png) no-repeat;height:381px;width:563px}
+.Iflexion_mobile1{height:214px;width:315px;background:url(../Images/Iflexion_mobile1.png) no-repeat}
+.mobile_centric{display:block;float:left;width:45%;padding-left:15px}
+.corporate_service,.live_services{display:block;float:left;width:45%;padding-right:15px}
+.Iflexion_mobile_development_1{height:251px;width:340px;background:url(../images/iflexion_mobile_development_1.png) no-repeat}
+.Iflexion_mobile_development{height:259px;width:239px;background:url(../Images/Iflexion_mobile_development.png) no-repeat}
+.UI{background:url(../Images/UI.png) no-repeat;height:245px;width:520px}
+.Requirements_and_Conceptual_Design{background:url(../Images/Requirements_and_Conceptual_Design.png) no-repeat;height:200px;width:680px}
+.Software_maintenance{margin-left:200px}
+.OS_and_server_migration{margin-left:405px;margin-top:44px}
+.Performance_availability_monitoring{margin-left:200px;margin-top:60px}
+.Application_improvement{margin-left:405px;margin-top:45px}
+.tracking_systems_deployment{margin-left:200px;margin-top:35px}
+.Levels_of_Support_scheme3{background:url(../Images/scheme3.png) no-repeat;height:273px;width:637px}
+.Business_Continuity_p{float:left;width:53px;margin-right:20px}
+.Business_Continuity_p_blog{margin-top:15px;margin-left:100px}
+.Models_grid_p{float:left;width:113px;height:43px;margin-right:8px}
+.clock_img{height:99px;width:100px;background:url(../Images/clock.png) no-repeat}
+.clock_img_blog{float:left;width:100px;margin-left:10px;margin-right:10px}
+.Models_grid_p1{float:left;width:100px;height:45px}
+.Persistence_Tier{background:url(../Images/persistence_tier1.png) no-repeat;height:91px;width:674px}
+.Business_Logic_Layer{background:url(../Images/business_logic_layer1.png) no-repeat;height:92px;width:675px}
+.presentation_layer1{background:url(../Images/presentation_layer1.png) no-repeat;height:90px;width:674px}
+.list_text{padding-left:25px}
+.internet .left{float:left;width:60%}
+.internet .right{float:left;width:6%}
+.ecommerce .left,.ecommerce .middle{float:left;width:30%}
+.ecommerce .right{float:left;width:6%}
+.news .left{float:left;width:60%}
+.news .right{float:left;width:6%}
+.social_net .left{float:left;width:60%}
+.social_net .right{float:left;width:6%}
+.Mobile .left{float:left;width:60%}
+.Mobile .right{float:left;width:6%}
+.Iflexion_PHP_tech_stack{background:url(../Images/Iflexion_PHP_tech_stack.png) no-repeat;height:221px;width:680px;display:block;margin-left:auto;margin-right:auto;padding-top:20px;padding-bottom:20px}
+.Digitology_Database_Development_Technology{background:url(../Images/Digitology_Database_Development_Technology.png) no-repeat;width:675px;height:182px;padding-bottom:15px;text-align:left}
+.Digitology_Database_Development{background:url(../Images/Digitology_Database_Development.png) no-repeat;width:579px;height:609px;display:block;margin-left:auto;margin-right:auto}
+.ul_list_img,.ul_list_img_dt{padding:10px 0 0 53px;text-align:left}
+.generic_table{border:1px solid #fff;height:auto}
+@media screen and (min-width:304px) and (max-width:900px){
+.image_grid{background:0 0;min-height:auto;margin-top:auto;width:auto}}
+@media screen and (min-width:700px) and (max-width:900px){
+.Competencies_solution{width:60%}
+}
+@media screen and (min-width:900px) and (max-width:1024px){
+.image_grid{background:url(../Images/1CIRCLES.png) center center no-repeat;min-height:1500px;margin-top:25px;width:980px}}
+@media screen and (min-width:750px) and (max-width:1024px){
+.Digitology_Media_Content_Distribution{background:url(../Images/Digitology_Media_Content_Distribution_tablet.png) no-repeat;width:600px;height:180px;display:block;margin-left:auto;margin-right:auto}}
+@media screen and (min-width:300px) and (max-width:365px){
+.Digitology_Database_Development,.Iflexion_PHP_tech_stack,.Iflexion_mobile1,.Requirements_and_Conceptual_Design,.UI{
+margin-left:auto;margin-right:auto;display:block}
+article .big_mark li{background:url(../Images/big_mark_mobile.png) 5px 5px no-repeat;list-style:none;padding:0 0 15px 55px}
+.ul_list_img{padding:0}
+.Digitology_Database_Development{background:url(../Images/Digitology_Database_Development_mobile.png) no-repeat;width:300px;height:315px}
+.Digitology_Database_Development_Technology{background:url(../Images/Digitology_Database_Development_Technology_mobile.png) no-repeat;width:300px;height:80px;padding-bottom:15px;text-align:left}
+.Iflexion_PHP_tech_stack{background:url(../Images/Digitology_PHP_tech_stack_mobile.png) no-repeat;height:100px;width:300px;padding-top:20px;padding-bottom:20px}
+.Mobile .left,.Mobile .right,.ecommerce .left,.ecommerce .middle,.ecommerce .right,.internet .left,.internet .right,.news .left,.news .right,.social_net .left,.social_net .right{float:left;width:auto}
+.presentation_layer1{background:url(../Images/presentation_layer1-mobile.png) no-repeat;height:40px;width:300px}
+.Business_Logic_Layer{background:url(../Images/business_logic_layer1_mobile.png) no-repeat;height:68px;width:300px}
+.Persistence_Tier{background:url(../Images/persistence_tier1_mobile.png) no-repeat;height:42px;width:300px}
+.Levels_of_Support_scheme3{background:url(../Images/scheme3_mobile.png) no-repeat;height:136px;width:300px}
+.Models_grid{width:auto}
+.Business_Continuity_p_blog{margin-top:auto;margin-left:auto}
+.Business_Continuity_p{float:left;width:auto}
+.Software_maintenance{margin-left:auto}
+.Application_improvement,.OS_and_server_migration,.Performance_availability_monitoring,.tracking_systems_deployment{margin-left:auto;margin-top:auto}
+.services_text{margin-bottom:50px;background:0 0;min-height:auto;margin-top:40px}
+.Requirements_and_Conceptual_Design{background:url(../Images/Requirements_and_Conceptual_Design_mobile.png) no-repeat;height:86px;width:300px}
+.UI{background:url(../Images/UI_mobile.png) no-repeat;height:160px;width:300px}
+.Iflexion_mobile_development{height:230px;width:300px;background:url(../Images/Iflexion_mobile_development_mobile.png) no-repeat}
+.Iflexion_mobile_development_1{height:230px;width:300px;background:url(../Images/Iflexion_mobile_development_1_mobile.png) no-repeat}
+.corporate_service,.live_services{display:block;float:left;width:auto;padding-right:0}
+.mobile_centric{display:block;float:left;width:auto;padding-left:0}
+.Iflexion_mobile1{height:200px;width:300px;background:url(../Images/Iflexion_mobile1_mobile.png) no-repeat}
+.online_services{display:block;float:left;width:auto;padding-right:0}
+.web_app_colors{background:url(../Images/colors.png) no-repeat;height:54px;width:53px}
+.web_app_colors_div{margin:0}
+.web_app_colors_content{margin-top:0;float:none}
+.Competencies_solution{float:left;width:auto}
+.left_grid,.right_grid{width:auto;margin:auto}
+.Business_Intelligence_and_Data_Mining,.Digitology_Media_Content_Distribution,.Ecommerce_03,.Mapping-Domain-Knowledge,.SolutionModel,.all-round-solutions,.digitology_expertise{display:block;margin-left:auto;margin-right:auto;width:300px}
+.cite{padding:15px 0 0}
+.cite_author,p.cite_author{padding:0}
+.digitology_expertise{background:url(../images/digitology_expertise_mobile.png) no-repeat;height:300px;width:300px}
+article table ul{padding:0!important}
+.SolutionModel{background:url(../Images/SolutionModel_mobile.png) no-repeat;height:156px}
+.all-round-solutions{background:url(../Images/all-round-solutions_mobile.png) no-repeat;height:200px}
+.Ecommerce_03{background:url(../Images/Ecommerce_03_mobile.png) no-repeat;height:340px}
+.Business_Intelligence_and_Data_Mining{background:url(../Images/Business_Intelligence_and_Data_Mining_mobile.png) no-repeat;height:65px}
+.Digitology_Media_Content_Distribution{background:url(../Images/Digitology_Media_Content_Distribution_mobile.png) no-repeat;height:96px}
+.Mapping-Domain-Knowledge{background:url(../Images/Mapping-Domain-Knowledge_mobile.png) no-repeat;height:230px}
+.Digitology_Media_Content_Distribution_p{text-align:left;margin:0}
+.business_1,.business_2,.business_3{width:auto}
+.image_grid{background:0 0;width:auto;height:auto;margin-top:auto}
+.Business_Analysis,.Deployment,.Maintenance_Support,.Quality_Assurance{margin-top:2px;width:auto}
+.Technology_consulting{width:auto;margin-left:auto}
+.User_Experience{margin:55px 0 0 auto;width:auto}
+.Continuous_Improvement,.Development,.Integration{width:auto;margin-left:auto;margin-top:2px}
+.left_grid_img{width:auto}
+.right_grid_img{width:auto;float:left;margin-right:auto}}.boxes div,.display,div.hidden{display:none}.loader{position:fixed;left:0;top:0;width:100%;height:100%;z-index:9999;background:url(../Images/page-loader.gif) 50% 50% no-repeat #f9f9f9}#contentBlueValue #search_content_ul,#contentGreenValue #search_content_ul,#contentPinkValue #search_content_ul{padding-top:10px;padding-bottom:10px;list-style-type:none;text-align:justify}#contentBlueValue #search_content_ul span{color:#96DEFF;text-transform:uppercase;font-weight:700}#contentGreenValue #search_content_ul span{color:#E4FBBD;text-transform:uppercase;font-weight:700}#contentPinkValue #search_content_ul span{color:#F6A396;text-transform:uppercase;font-weight:700}#contentBlueValue #search_content_ul a,#contentGreenValue #search_content_ul a,#contentPinkValue #search_content_ul a{text-decoration:none;border-bottom:dotted 1px #000;font-size:18px}#contentBlueValue #search_content_ul a:hover,#contentGreenValue #search_content_ul a:hover{color:#CCC}#contentPinkValue #search_content_ul a:hover{color:#fff}#contentBlueValue,#contentGreenValue,#contentPinkValue{line-height:31px;font-family:BitterRegular;font-size:1.063em;font-weight:400;text-align:justify}#contentBlueValue{color:#96DEFF}#contentGreenValue{color:#E4FBBD}#contentPinkValue{color:#F6A396}.TitleMarginForHeading{margin-top:16px;margin-left:2%;width:35%}.h1strong{font-weight:700;font-size:.8em;font-family:BitterRegular}#contactusMessageMobile .heading_error{float:left}#blueRequestMessage .heading_error,#contactusMessage .heading_error,#contactusMessageMobile .heading_error,#greenRequestMessage .heading_error,#redRequestMessage .heading_error{color:#fff;margin-top:-2px;font-weight:700;font-family:BitterRegular}#contactusMessage .heading_error{margin-left:-30%}.headingmargin{margin-top:-20px!important}.isa_error,.isa_success{color:#fff}
+.Competencies_solution_img{float: left; margin: 30px 25px 0 0;}
+@media screen and (max-width:500px){.pagecontent_digitology{margin-top:40%}}
+@media screen and  (max-width:700px){
+.left_grid, .right_grid{width:auto;margin:4px;}
+}
+@media screen  and (min-width:366px) and (max-width:550px){
+.left_grid_img,.right_grid_img{width:100%;float:left;margin:0;}
+.Project_Vision,
+.Business_Analysis,
+.Quality_Assurance,
+.Deployment,
+.Maintenance_Support,
+.Technology_consulting,
+.User_Experience,
+.Development,
+.Integration,
+.Continuous_Improvement{
+width:auto;
+margin:0;
+}
+.ul_list_img {padding: 0;}
+.online_services,.mobile_centric,.corporate_service ,.live_services{display: block;float: left; width: auto; padding-right: 0;}
+.Models_grid{
+width:auto;
+}
+}
+@media screen  and (min-width:550px) and (max-width:899px){
+.left_grid_img,.right_grid_img{
+width:45%;
+margin:0;
+}
+.Project_Vision,
+.Business_Analysis,
+.Quality_Assurance,
+.Deployment,
+.Maintenance_Support,
+.Technology_consulting,
+.User_Experience,
+.Development,
+.Integration,
+.Continuous_Improvement{
+width:auto;
+margin:1% 0 1% 0;
+}
+}
+@media screen  and (min-width:366px) and (max-width:530px){
+.digitology_expertise{background:url(../images/digitology_expertise_mobile.png) no-repeat;height:300px;width:300px}
+.all-round-solutions{background:url(../Images/all-round-solutions_mobile.png) no-repeat;height: 200px;}
+.SolutionModel{background:url(../Images/SolutionModel_mobile.png) no-repeat;height:156px}
+.SolutionModel,.all-round-solutions{width:300px;display:block;margin-left:auto;margin-right:auto}
+.Mapping-Domain-Knowledge {background: url(../Images/Mapping-Domain-Knowledge_mobile.png) no-repeat;height: 230px;width:300px}
+.Ecommerce_03 {background: url(../Images/Ecommerce_03_mobile.png) no-repeat;height: 340px;width:300px;background-position:10% top;}
+.Business_Intelligence_and_Data_Mining {background: url(../Images/Business_Intelligence_and_Data_Mining_mobile.png) no-repeat;height: 65px;width:300px;}
+.Digitology_Media_Content_Distribution {background: url(../Images/Digitology_Media_Content_Distribution_mobile.png) no-repeat;height: 96px;width:300px;}
+.UI{background:url(../Images/UI_mobile.png) no-repeat;height:160px;width:300px}
+.Requirements_and_Conceptual_Design {background: url(../Images/Requirements_and_Conceptual_Design_mobile.png) no-repeat;height: 86px;width: 300px;}
+.Levels_of_Support_scheme3 {background: url(../Images/scheme3_mobile.png) no-repeat;height: 136px;width: 300px;}
+.Persistence_Tier {background: url(../Images/persistence_tier1_mobile.png) no-repeat;height: 42px;width: 300px;}
+.Business_Logic_Layer {background: url(../Images/business_logic_layer1_mobile.png) no-repeat;height: 68px;width: 300px;}
+.presentation_layer1 {background: url(../Images/presentation_layer1-mobile.png) no-repeat;height: 40px;width: 300px;}
+.Iflexion_PHP_tech_stack{background:url(../Images/Digitology_PHP_tech_stack_mobile.png) no-repeat;height:100px;width:300px;padding-top:20px;padding-bottom:20px}
+.Digitology_Database_Development_Technology{background:url(../Images/Digitology_Database_Development_Technology_mobile.png) no-repeat;width:300px;height:80px;padding-bottom:15px;text-align:left}
+.Digitology_Database_Development{background:url(../Images/Digitology_Database_Development_mobile.png) no-repeat;width:300px;height:315px}
+}
+@media screen  and (min-width:530px) and (max-width:750px){
+.digitology_expertise{background:url(../images/digitology_expertise_500.png) no-repeat;height:691px;width:500px;}
+.all-round-solutions{ background:url(../Images/all-round-solutions_500.png) no-repeat;height: 290px;width:500px;}
+.SolutionModel{background:url(../Images/SolutionModel_500.png) no-repeat;height:270;pxwidth:500px;}
+.SolutionModel,.all-round-solutions{width:500px;display:block;margin-left:auto;margin-right:auto}
+.Ecommerce_03 {background: url(../Images/Ecommerce_03_500.png) no-repeat;height: 500px;width:500px;}
+.Business_Intelligence_and_Data_Mining {background: url(../Images/business_intelligence_and_data_mining_500.png) no-repeat;height: 110px;width:500px;}
+.Digitology_Media_Content_Distribution {background: url(../Images/Digitology_Media_Content_Distribution_tablet_500.png) no-repeat;height: 180px;width:500px;}
+.Mapping-Domain-Knowledge  {background: url(../Images/Mapping-Domain-Knowledge_500.png) no-repeat;height: 340px;width:500px;}
+.Digitology_Media_Content_Distribution_p{margin:0;}
+.UI{background:url(../Images/UI_500.png) no-repeat;height:240px;width:500px}
+.Requirements_and_Conceptual_Design {background: url(../Images/Requirements_and_Conceptual_Design_500.png) no-repeat;height: 150px;width: 500px;}
+.Levels_of_Support_scheme3 {background: url(../Images/scheme3_500.png) no-repeat;height: 215px;width: 500px;}
+.Models_grid{width:37%;}
+.Persistence_Tier {background: url(../Images/persistence_tier1_450.png) no-repeat;height: 65px;width: 450px;}
+.Business_Logic_Layer {background: url(../Images/business_logic_layer1_450.png) no-repeat;height: 65px;width: 450px;}
+.presentation_layer1 {background: url(../Images/presentation_layer1_450.png) no-repeat;height: 65px;width: 450px;}
+.Iflexion_PHP_tech_stack {background: url(../Images/Iflexion_PHP_tech_stack_500.png) no-repeat;height: 165px;width: 500px;display: block;margin-left: auto;margin-right: auto;padding-top: 20px;padding-bottom: 20px;}
+.Digitology_Database_Development_Technology {background: url(../Images/Digitology_Database_Development_Technology_500.png) no-repeat;width: 500px;height: 135px;padding-bottom: 15px;text-align: left;}
+.Digitology_Database_Development {background: url(../Images/Digitology_Database_Development_500.png) no-repeat;width: 500px;height: 527px;display: block;margin-left: auto;margin-right: auto;}
+}
+@media screen  and (min-width:366px) and (max-width:767px){
+.Competencies_solution {float: left;width: auto;}
+.Competencies_solution_img{float:none;margin:0}
+ .solution {background-position:center top}
+.services_text {margin-bottom: 50px;background: 0 0;min-height: auto;margin-top: 40px;}
+.Software_maintenance {margin-left: auto;}
+.Application_improvement, .OS_and_server_migration, .Performance_availability_monitoring, .tracking_systems_deployment {
+    margin-left: auto;
+    margin-top: auto;
+}
+}
+.sales_contact .left_grid, .sales_contact .right_grid{
+width:45%;
+}

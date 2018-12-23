@@ -1,0 +1,53 @@
+/**********************************************************************************
+
+ Theme Name: Digitology
+ Theme URI: 
+ Description: A clean portfolio WordPress theme made exlusively for Tuts+ Premium.
+ Version: 1.0
+ Author: XYZ
+ Author URI: http://www.digitology.co.uk
+ License: GNU General Public License version 3.0
+ License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ Tags: 
+**********************************************************************************/
+@import url('css/menustyle.css');
+@import url('css/pagesCss.css');
+@import url('css/set1.css');
+@import url('css/style.css');
+@import url('css/style2.css');
+
+/*@import url('ThemeBlue/css/Search.css');*/
+@import url('ThemeBlue/css/normalize.css');
+@import url('ThemeBlue/css/menu_bubble.css');
+/*@import url('http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');*/
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,800,300');
+@import url('ThemeBlue/css/normalize.css');
+/*@import url('ThemeBlue/css/style2.css');*/
+@import url('http://fonts.googleapis.com/css?family=Economica:700,400italic');
+@import url('ThemeBlue/SpryAssets/SpryTabbedPanels.css');
+
+
+@import url('ThemeGreen/css/animate.css');
+/*@import url('http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italics');*/
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,800,300');
+@import url('ThemeGreen/css/menu_bubble.css');
+@import url('ThemeGreen/css/normalize.css');
+/*@import url('ThemeGreen/css/set1.css');*/
+/*@import url('ThemeGreen/css/style2.css');*/
+@import url('http://fonts.googleapis.com/css?family=Economica:700,400italic');
+@import url('ThemeGreen/SpryAssets/SpryTabbedPanels.css');
+@import url('ThemeGreen/css/global.1291388306.css');
+@import url('ThemeGreen/css/home.1291388306.css');
+
+
+@import url('ThemePink/css/normalize.css');
+@import url('ThemePink/css/menu_bubble.css');
+@import url('ThemePink/css/animate.css');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,800,300');
+@import url('ThemePink/css/normalize.css');
+/*@import url('ThemePink/css/set1.css');*/
+/*@import url('ThemePink/css/style2.css');*/
+/*@import url('http://fonts.googleapis.com/css?family=Economica:700,400italic');*/
+@import url('ThemePink/SpryAssets/SpryTabbedPanels.css');
+
